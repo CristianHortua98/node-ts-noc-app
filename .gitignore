@@ -1,2 +1,9 @@
 node_modules/
 dist/
+
+logs/
+.env
+mongo/
+postgres/
+/src/generated/prisma
+prisma/
