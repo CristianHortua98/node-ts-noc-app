@@ -7,3 +7,5 @@ mongo/
 postgres/
 /src/generated/prisma
 prisma/
+mongo-test/
+postgres-test/

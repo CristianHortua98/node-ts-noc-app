@@ -25,4 +25,12 @@ POSTGRES_DB=
 ```
 3. Ejecutar el comando ```npm install```
 4. Leventas las bases de datos con el comando ```docker compose up -d```
-4. Ejecutar ```npm run dev```
+5. Ejecutar el comando 
+```
+npx prisma migrate dev --name init
+```
+6. Ejecutar el comando
+```
+npx prisma generate
+```
+6. Ejecutar ```npm run dev```

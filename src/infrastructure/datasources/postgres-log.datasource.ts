@@ -5,7 +5,6 @@ import { envs } from "../../config/plugins/envs.plugins";
 import { PrismaPg } from "@prisma/adapter-pg";
 import { PrismaClient, SeverityLevel } from "../../generated/client";
 
-
 const pool = new Pool ({
     connectionString: envs.POSTGRES_URL
 });
